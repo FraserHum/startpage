@@ -16,13 +16,13 @@
                 "file://*/*/startpage/index.html*"
             ],
             "js": [
-                "startpageBookmarks.js"
+                "content-script.js"
             ]
         }
     ],
     "background": {
         "scripts": [
-            "bookmarks.js"
+            "background-script.js"
         ],
         "persistent": false
     },
