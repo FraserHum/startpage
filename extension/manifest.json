@@ -1,19 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "Borderify",
+    "name": "startpage-bookmarks",
     "version": "1.0",
-    "description": "Adds a red border to all webpages matching mozilla.org.",
+    "description": "inserts lists of bookmarks to your localhosted startpage",
     "permissions": [
-        "file://*/*/startpage/index.html*",
-        "bookmarks",
-        "tabs",
-        "activeTab",
-        "webNavigation"
+        "http://localhost/index.html",
+        "bookmarks"
     ],
     "content_scripts": [
         {
             "matches": [
-                "file://*/*/startpage/index.html*"
+                "http://localhost/index.html"
             ],
             "js": [
                 "content-script.js"
