@@ -3,6 +3,7 @@ SERVICE_FILE=/etc/systemd/system/startpage.service
 
 
 dir=$(cd "$(dirname "$0:A")" ; pwd -P)
+DIRR="${pwd}"
 
 service="[Unit]
 Description=Service for startpage server

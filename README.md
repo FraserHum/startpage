@@ -13,7 +13,7 @@ dependencies:
 
 to install: 
 - run install.sh as root:
-- - sudo ./install.sh
+    - sudo ./install.sh
 - manually add extension to firefox via the .xpi
 
 
